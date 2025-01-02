@@ -24,7 +24,7 @@ function onCheckBtn(){
     inputEl.disabled = true;
     guessEl.textContent = "Oops...! Bad luck😥, You lost the game."
     guessEl.style.color = "red";
-    checkbtnEl.textContent = "Play Again...😉";
+    checkbtnEl.textContent = "Play Again";
     remainingChancesTextEl.textContent = "No Chances Left...."
 
   }
@@ -37,7 +37,7 @@ function onCheckBtn(){
         inputEl.disabled = true;
         guessEl.textContent = "Hurrah...! Congratulations😍, You won the game.";
         guessEl.style.color = "green";
-        checkbtnEl.textContent = "Play Again...😉"
+        checkbtnEl.textContent = "Play Again"
         totalChances = 0;
   }
 
